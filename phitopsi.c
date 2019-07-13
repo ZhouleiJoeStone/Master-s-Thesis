@@ -54,10 +54,10 @@ double f(double x, double y){
 }
 
 double topsi(double lb, double rb, double lt, double rt){
-    if ((lb>0.0) &&(rb>0.0)&& (lt>0.0) &&(rt>0.0)){
+    if ((lb>0.0) && (rb>0.0) && (lt>0.0) && (rt>0.0)){
         return 1.0;
     }
-    else if ((lb<0.0) &&(rb<0.0)&& (lt<0.0) &&(rt<0.0)){
+    else if ((lb<0.0) && (rb<0.0) && (lt<0.0) && (rt<0.0)){
         return 0.0;
     }
     else{
